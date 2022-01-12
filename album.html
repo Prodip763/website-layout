@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo album</title>
+    <style>
+        .photo-album{
+            display: flex;
+            flex-wrap: wrap;
+            
+        }
+        .photo-farme{
+            width: 300px;
+            height: 170px;
+            border: 2px solid goldenrod;
+            border-radius: 10px;
+            position: relative;
+            margin: 10px;
+            overflow: hidden;
+        }
+        .photo-farme:hover .photo-detail{
+            display: block;
+            background-color: rgba(85, 65, 15, 0.685);
+        }
+        .photo-detail h3{
+            background-color: black;
+            color: white;
+            text-align: center;
+
+        }
+        .photo-detail p{
+            color: white;
+        }
+        .photo img{
+            width: 100%;
+            border-radius: 10px;
+        }
+        .photo-detail{
+            display: none;
+            position: absolute;
+            width: 300px;
+            top: 0;
+        }
+        .photo-farme:hover .photo{
+            transform: scale(1.5) rotate(300deg) skew(-30deg);
+            transition: transform 2s ease-in-out;
+        }
+    </style>
+</head>
+<body>
+   <h1>my awsome photo album with tiger mama</h1>
+   <section>
+    <h3>Tiger Album</h3>
+    <div class="photo-album">
+        <div class="photo-farme">
+            <div class="photo">
+                <img src="imgs/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>tigher mama</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid molestias cum, quibusdam nihil ipsam nam! Doloremque quia libero repellat qui quis? Quibusdam ut obcaecati cumque itaque minima ducimus accusamus aspernatur!</p>
+            </div>
+        </div>
+        <div class="photo-farme">
+            <div class="photo">
+                <img src="imgs/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>tigher mama</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid molestias cum, quibusdam nihil ipsam nam! Doloremque quia libero repellat qui quis? Quibusdam ut obcaecati cumque itaque minima ducimus accusamus aspernatur!</p>
+            </div>
+        </div>
+        <div class="photo-farme">
+            <div class="photo">
+                <img src="imgs/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>tigher mama</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid molestias cum, quibusdam nihil ipsam nam! Doloremque quia libero repellat qui quis? Quibusdam ut obcaecati cumque itaque minima ducimus accusamus aspernatur!</p>
+            </div>
+        </div>
+        <div class="photo-farme">
+            <div class="photo">
+                <img src="imgs/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>tigher mama</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid molestias cum, quibusdam nihil ipsam nam! Doloremque quia libero repellat qui quis? Quibusdam ut obcaecati cumque itaque minima ducimus accusamus aspernatur!</p>
+            </div>
+        </div>
+        <div class="photo-farme">
+            <div class="photo">
+                <img src="imgs/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>tigher mama</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid molestias cum, quibusdam nihil ipsam nam! Doloremque quia libero repellat qui quis? Quibusdam ut obcaecati cumque itaque minima ducimus accusamus aspernatur!</p>
+            </div>
+        </div>
+        <div class="photo-farme">
+            <div class="photo">
+                <img src="imgs/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>tigher mama</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid molestias cum, quibusdam nihil ipsam nam! Doloremque quia libero repellat qui quis? Quibusdam ut obcaecati cumque itaque minima ducimus accusamus aspernatur!</p>
+            </div>
+        </div>
+        <div class="photo-farme">
+            <div class="photo">
+                <img src="imgs/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>tigher mama</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid molestias cum, quibusdam nihil ipsam nam! Doloremque quia libero repellat qui quis? Quibusdam ut obcaecati cumque itaque minima ducimus accusamus aspernatur!</p>
+            </div>
+        </div>
+        <div class="photo-farme">
+            <div class="photo">
+                <img src="imgs/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>tigher mama</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid molestias cum, quibusdam nihil ipsam nam! Doloremque quia libero repellat qui quis? Quibusdam ut obcaecati cumque itaque minima ducimus accusamus aspernatur!</p>
+            </div>
+        </div>
+        <div class="photo-farme">
+            <div class="photo">
+                <img src="imgs/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>tigher mama</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid molestias cum, quibusdam nihil ipsam nam! Doloremque quia libero repellat qui quis? Quibusdam ut obcaecati cumque itaque minima ducimus accusamus aspernatur!</p>
+            </div>
+        </div>
+        <div class="photo-farme">
+            <div class="photo">
+                <img src="imgs/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>tigher mama</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid molestias cum, quibusdam nihil ipsam nam! Doloremque quia libero repellat qui quis? Quibusdam ut obcaecati cumque itaque minima ducimus accusamus aspernatur!</p>
+            </div>
+        </div>
+        <div class="photo-farme">
+            <div class="photo">
+                <img src="imgs/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>tigher mama</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid molestias cum, quibusdam nihil ipsam nam! Doloremque quia libero repellat qui quis? Quibusdam ut obcaecati cumque itaque minima ducimus accusamus aspernatur!</p>
+            </div>
+        </div>
+        <div class="photo-farme">
+            <div class="photo">
+                <img src="imgs/tiger.jpg" alt="">
+            </div>
+            <div class="photo-detail">
+                <h3>tigher mama</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid molestias cum, quibusdam nihil ipsam nam! Doloremque quia libero repellat qui quis? Quibusdam ut obcaecati cumque itaque minima ducimus accusamus aspernatur!</p>
+            </div>
+        </div>
+    </div>
+   </section>
+</body>
+</html>
